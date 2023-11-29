@@ -1,0 +1,642 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.contact-title {
+  position: absolute;
+  top: 19.72%;
+  left: 22.42%;
+  letter-spacing: 0.02em;
+}
+.currently-a-first {
+  margin: 0;
+}
+.contact-subtitle {
+  position: absolute;
+  top: 38.44%;
+  left: 22.44%;
+  font-size: 14.49px;
+  line-height: 150%;
+  color: var(--light-grey);
+}
+.contact-subtitle1 {
+  text-decoration: none;
+  position: absolute;
+  top: 56.59%;
+  left: 23.96%;
+  font-size: 14.12px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--secondary-text);
+}
+.email-icon {
+  position: absolute;
+  height: 3.94%;
+  width: 1.14%;
+  top: 57.07%;
+  right: 76.42%;
+  bottom: 38.99%;
+  left: 22.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagram-icon,
+.x-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.x-icon {
+  width: 17px;
+  height: 16px;
+}
+.contact-icons {
+  position: absolute;
+  height: 4.3%;
+  width: 4.28%;
+  top: 69.25%;
+  right: 73.28%;
+  bottom: 26.46%;
+  left: 22.44%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.footer {
+  position: absolute;
+  height: 15.69%;
+  width: 100.57%;
+  top: 84.31%;
+  right: -0.01%;
+  bottom: 0.01%;
+  left: -0.56%;
+  background-color: #1a1919;
+  text-align: left;
+  font-size: 23.53px;
+  color: var(--primary-color);
+  font-family: var(--font-poppins);
+}
+.experience-subtitle-txt-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.experience-subtitle {
+  position: absolute;
+  height: 45.45%;
+  width: 100%;
+  top: 54.55%;
+  left: 0;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.google-logo-icon {
+  position: absolute;
+  height: 24.24%;
+  width: 4.26%;
+  top: 3.79%;
+  right: 93.61%;
+  bottom: 71.97%;
+  left: 2.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.experience {
+  position: absolute;
+  width: 18.77%;
+  top: 0;
+  left: 80.4%;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.st-experience {
+  position: absolute;
+  top: 5px;
+  left: 17px;
+  width: 799.6px;
+  height: 132px;
+}
+.experience-subtitle1,
+.experience-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.experience-title {
+  width: 69.75%;
+  top: -0.22%;
+  left: 6.79%;
+  font-size: 21.74px;
+  color: var(--primary-color);
+  text-align: center;
+  justify-content: center;
+}
+.experience-subtitle1 {
+  height: 52.17%;
+  width: 99.35%;
+  top: 47.83%;
+  left: 0;
+  line-height: 150%;
+}
+.apple-logo-icon {
+  position: absolute;
+  height: 26.87%;
+  width: 3.37%;
+  top: 0;
+  right: 96.63%;
+  bottom: 73.13%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.experience1 {
+  position: absolute;
+  width: 18.65%;
+  top: 3.48%;
+  left: 81.35%;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nd-experience {
+  position: absolute;
+  top: 167px;
+  left: 5.2px;
+  width: 804.8px;
+  height: 115px;
+  display: none;
+}
+.experience-subtitle2,
+.experience-title1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.experience-title1 {
+  width: 37.8%;
+  top: 0;
+  left: 5.81%;
+  font-size: 21.74px;
+  justify-content: center;
+}
+.experience-subtitle2 {
+  height: 51.28%;
+  width: 98.97%;
+  top: 48.72%;
+  left: 0;
+  line-height: 150%;
+  color: var(--secondary-text);
+  text-align: left;
+}
+.meta-logo-icon {
+  position: absolute;
+  height: 18.8%;
+  width: 4%;
+  top: 5.13%;
+  right: 95.48%;
+  bottom: 76.07%;
+  left: 0.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.experience2 {
+  position: absolute;
+  width: 18.58%;
+  top: 5.13%;
+  left: 81.42%;
+  line-height: 150%;
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rd-experience {
+  position: absolute;
+  top: 331px;
+  left: 2.1px;
+  width: 807.9px;
+  height: 117px;
+  display: none;
+  text-align: center;
+  color: var(--primary-color);
+}
+.tempimagefwq0hz-1-icon {
+  position: absolute;
+  height: 5.8%;
+  width: 2.22%;
+  top: 0.67%;
+  right: 95.31%;
+  bottom: 93.53%;
+  left: 2.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.experience-section {
+  position: absolute;
+  top: 1696px;
+  left: 315px;
+  width: 810px;
+  height: 448px;
+  font-size: 14.49px;
+  color: var(--light-grey);
+}
+.experience3 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 35.75px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(180deg, #5badff, #1372d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience-title2 {
+  position: absolute;
+  top: 1603px;
+  left: 613px;
+  width: 213px;
+  height: 36px;
+}
+.custom,
+.logo-design {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+}
+.custom {
+  width: 74.49%;
+  top: 0;
+  font-size: var(--font-size-3xs);
+  line-height: 19px;
+  color: var(--secondary-text);
+}
+.image-1-icon,
+.project-title {
+  position: absolute;
+  top: 247px;
+  left: 23px;
+  width: 147.4px;
+  height: 40px;
+}
+.image-1-icon {
+  height: 59.47%;
+  width: 50.26%;
+  top: 12.96%;
+  right: 24.87%;
+  bottom: 27.57%;
+  left: 24.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.nd-project {
+  position: absolute;
+  height: 11.27%;
+  width: 27.08%;
+  top: 45.17%;
+  right: 21.88%;
+  bottom: 43.56%;
+  left: 51.04%;
+  border-radius: var(--br-lg);
+  background-color: var(--card-color);
+  font-size: var(--font-size-lgi);
+  font-family: var(--font-inter);
+}
+.sneaker-ui {
+  position: absolute;
+  width: 40.46%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-3xs);
+  line-height: 19px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--secondary-text);
+  display: inline-block;
+}
+.project-title1,
+.st-project {
+  position: absolute;
+  top: 247px;
+  left: 23px;
+  width: 261px;
+  height: 40px;
+}
+.st-project {
+  height: 11.27%;
+  width: 27.08%;
+  top: 45.17%;
+  right: 51.04%;
+  bottom: 43.56%;
+  left: 21.88%;
+  border-radius: var(--br-lg);
+  background-color: var(--card-color);
+  font-size: var(--font-size-lgi);
+}
+.portfolio {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 35.75px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(180deg, #ff8660, #d5491d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects-title {
+  position: absolute;
+  top: 1143px;
+  left: 625.2px;
+  width: 182px;
+  height: 36px;
+}
+.experience-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+.experience-with {
+  position: absolute;
+  top: 921px;
+  left: 631px;
+  width: 208px;
+  height: 30px;
+  font-size: 20px;
+  color: var(--secondary-text);
+}
+.html-icon,
+.javascript-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+}
+.html-icon {
+  width: 37px;
+}
+.logos {
+  position: absolute;
+  top: 1000px;
+  left: 496px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60.45px;
+}
+.get-in-touch {
+  position: absolute;
+  height: 50%;
+  width: 69.74%;
+  top: 25.08%;
+  left: 15.38%;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-text-stroke: 0.3px #fff;
+}
+.get-in-touch-button {
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 46.76%;
+  top: 0;
+  right: 53.24%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(#fff, #fff), #fff;
+  border: 1px solid var(--primary-color);
+  box-sizing: border-box;
+  color: inherit;
+}
+.download-cv-button:hover,
+.get-in-touch-button:hover {
+  animation: 1s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.github {
+  position: absolute;
+  height: 50%;
+  width: 36.27%;
+  top: 25.08%;
+  left: 31.86%;
+  font-weight: 600;
+  display: inline-block;
+}
+.download-cv-button {
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 48.92%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 51.08%;
+  border-radius: var(--br-31xl);
+  border: 2px solid var(--primary-color);
+  box-sizing: border-box;
+  color: var(--primary-color);
+}
+.action-buttons {
+  position: absolute;
+  top: 771px;
+  left: 496px;
+  width: 417px;
+  height: 63px;
+  font-size: 21.38px;
+  color: var(--background-color);
+}
+.contact,
+.experience4,
+.home,
+.projects {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 19.6px;
+  flex-shrink: 0;
+}
+.contact,
+.experience4,
+.projects {
+  width: 63.5px;
+}
+.contact,
+.experience4 {
+  width: 84.6px;
+}
+.contact {
+  width: 64.6px;
+}
+.navbar {
+  position: absolute;
+  height: 23.9%;
+  width: 32.9%;
+  top: 37.68%;
+  right: 33.56%;
+  bottom: 38.41%;
+  left: 33.54%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 71px;
+}
+.about-me1,
+.header {
+  position: absolute;
+  top: 0;
+}
+.header {
+  height: 3.07%;
+  width: 100%;
+  right: -0.07%;
+  bottom: 96.93%;
+  left: 0.07%;
+  background-color: rgba(34, 34, 34, 0.7);
+  box-shadow: 0 4.4px 16px -2.18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--primary-color);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.about-me1 {
+  left: -17.67%;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+}
+.about-me {
+  position: absolute;
+  top: 609px;
+  left: 384px;
+  width: 679px;
+  height: 108px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+.about-it {
+  background: linear-gradient(115.69deg, #ff8660, #9a34ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title,
+.title1 {
+  position: absolute;
+}
+.title1 {
+  margin: 0;
+  top: 0;
+  left: -3.13%;
+  font-size: inherit;
+  line-height: 63.36px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.title {
+  top: 443px;
+  left: 384px;
+  width: 670px;
+  height: 127px;
+  text-align: center;
+  font-size: 55px;
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 1.57%;
+  width: 3.35%;
+  top: 37.45%;
+  right: 42.55%;
+  bottom: 60.97%;
+  left: 54.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1 {
+  width: 2.99%;
+  right: 36.38%;
+  left: 60.63%;
+}
+.page-6-icon,
+.rectangle-icon {
+  position: absolute;
+  top: 189px;
+  left: 600px;
+  width: 241px;
+  height: 240px;
+  object-fit: cover;
+}
+.page-6-icon {
+  height: 8.31%;
+  width: 24.58%;
+  top: 45.81%;
+  right: 52.36%;
+  bottom: 45.88%;
+  left: 23.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.web-design {
+  position: relative;
+  background-color: var(--background-color);
+  width: 100%;
+  height: 2670px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--primary-color);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-2xl-4: 21.4px;
+  --font-size-16xl: 35px;
+  --font-size-3xs: 10px;
+  --font-size-lgi: 19px;
+  --font-size-mini-5: 14.5px;
+  --font-size-2xl-7: 21.7px;
+
+  /* Colors */
+  --card-color: #2a2a2a;
+  --background-color: #161513;
+  --primary-color: #fff;
+  --secondary-text: #c5c5c5;
+  --light-grey: #8491a0;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-lg: 18px;
+}
